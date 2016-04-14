@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Pacifico);
+
+body {
+	background-color: pink;
+}
+
+h1 {
+font-family: 'Pacifico', cursive;; 
+color: white;
+text-align: left;
+font-size: 40px;
+padding: 10px 24px;
+}
+
+* {
+	list-style: none;
+	text-decoration: none;
+}
+
+nav li{
+	list-style-type: none;
+   float: right;
+   display: block;
+   font-family: 'Open Sans', sans-serif;
+   color: FFFFFF;
+   padding: 0px 10px;
+
+}
+
+nav li a:hover {
+	background-color: #89616b;
+
+}
+
+aside li{
+	list-style-type: none;
+}
+
+aside {
+color: white;
+text-align: left;
+margin: 5px;
+height: 200px;
+width: 300px;
+margin-bottom: 30px;
+position: absolute;
+border-color: white;
+padding: 30px 30px 30px 30px;
+text-decoration: none;
+text-align: left;
+font-family: 'Open Sans', sans-serif;
+line-height: 40px;
+
+}
+
+article:first-child{
+margin-left: 20%;
+margin-right: 5%;
+position: absolute;
+border: groove;
+left: 150px;
+top: 400px;
+padding: 20px 20px;
+font-family: 'Open Sans', sans-serif;
+color: white;
+
+}
+
+article:nth-child(2){
+	margin-left: 20%;
+	margin-right: 5%;
+	position: absolute;
+	border: groove;
+	border-color: groove;
+	left: 150px;
+	top: 150px;
+	padding: 20px 20px;
+	font-family: 'Open Sans', sans-serif;
+    color: white
+}
+
+p{
+	color: white;
+	font-family:helvetica;
+}
+
+footer{
+font-family: helvetica;
+color: white;
+position: relative;
+top: 750px;
+display: inline-block;
+}
