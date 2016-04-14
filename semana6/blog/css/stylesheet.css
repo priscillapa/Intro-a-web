@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Pacifico);
+
+body {
+	background-color: pink;
+}
+
+h1 {
+font-family: 'Pacifico', cursive;; 
+color: white;
+text-align: left;
+font-size: 2.5em;
+padding: 10px 24px;
+}
+
+* {
+	list-style: none;
+	text-decoration: none;
+}
+
+nav li{
+	list-style-type: none;
+   float: right;
+   display: block;
+   font-family: 'Open Sans', sans-serif;
+   color: FFFFFF;
+   padding: 0px 10px;
+
+}
+
+nav li a:hover {
+	background-color: #ffffff;
+
+}
+
+aside li{
+	list-style-type: none;
+}
+
+aside {
+color: white;
+text-align: left;
+margin: 1%;
+height: auto;
+width: 30%;
+margin-bottom: 4%;
+position: 10%;
+border-color: white;
+padding: 30px 30px 30px 30px;
+text-decoration: none;
+text-align: left;
+font-family: 'Open Sans', sans-serif;
+line-height: 100%;
+
+}
+
+article:first-child{
+margin-left: 40%;
+margin-right: 3%;
+float: inherit;
+border: groove;
+left: 150px;
+top: 150px;
+padding: 20px 20px;
+font-family: 'Open Sans', sans-serif;
+color: white;
+
+}
+
+article:nth-child(2){
+	margin-left: 40%;
+	margin-right: 3%;
+	float: right;
+	border: groove;
+	border-color: groove;
+	left: 0px;
+	top: 150px;
+	padding: 20px 20px;
+	font-family: 'Open Sans', sans-serif;
+    color: white
+}
+
+p{
+	color: white;
+	font-family:helvetica;
+}
+
+@media screen and (max-width:365px)
